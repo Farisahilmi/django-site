@@ -1,8 +1,7 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+def address_view(request):
+    return HttpResponse("Alamat: Jl. Mawar No. 123, Bandung")
 
-def profile(request):
-    return HttpResponse("Hello, I Write other text here. You're at the polls profile.")
+def phone_view(request):
+    return HttpResponse("Telepon: 0812-3456-7890")
